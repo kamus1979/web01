@@ -16,6 +16,15 @@ public class Empleado {
     private Integer codigo;
     private String nombre;
     private BigDecimal sueldo;
+
+    public Empleado() {
+    }
+
+    public Empleado(Integer codigo, String nombre, BigDecimal sueldo) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.sueldo = sueldo;
+    }
     
     
     
