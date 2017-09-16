@@ -5,10 +5,18 @@
  */
 package entity;
 
+import java.math.BigDecimal;
+
 /**
  *
  * @author john
  */
 public class Empleado {
+    
+    private Integer codigo;
+    private String nombre;
+    private BigDecimal sueldo;
+    
+    
     
 }
